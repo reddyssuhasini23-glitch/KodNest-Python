@@ -5,3 +5,9 @@ result = first_number/second_number
 print(result)
 result = first_number//second_number
 print(result)
+
+first_number = int(input())
+second_number = int(input())
+
+result = first_number+second_number
+print(f"sum: {result}")
