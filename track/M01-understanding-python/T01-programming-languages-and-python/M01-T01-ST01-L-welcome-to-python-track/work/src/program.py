@@ -1,23 +1,12 @@
-class demo:
+class hero:
     def __init__(self):
-        self.name = "suhasini"
-        self.age = 22
-        self.favcolour = "Blue"
-    def selflove(self):
-        print("i am always in selflove mood")
-        print("self")
-d = demo()
-print(d.name)
-print(d.age)
-print(d.favcolour)
-d.selflove()
-print(d)
-#modifying
-d.age = 23
-print(d.age)
-#adding
-d.movie = "sye"
-print(d.movie)
-#deleting
-del d.favcolour
-print(d.favcolour)
+        self.name = "prabhas"
+        self.age = 30
+        self.numOfMovies = 25
+    def handsome(self):
+        print("prbhas is handsome guy")
+h1 = hero()
+print(h1.name)
+print(h1.age)
+print(h1.numOfMovies)
+h1.handsome()
