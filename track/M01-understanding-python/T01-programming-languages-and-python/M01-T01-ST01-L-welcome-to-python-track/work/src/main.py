@@ -1,4 +1,6 @@
-import student_result as s
+import show_student_details as s
+import calculate_total as t
+import get_result as r
 
 name = input("enter your name: ")
 roll_no = int(input("enter your roll no: "))
@@ -8,10 +10,10 @@ m3 = int(input("enter your marks in third subject: "))
 
 print(s.student_details(name, roll_no))
 
-total = s.calculate_total(m1, m2, m3)
-average = s.calculate_average(total)
-result = s.get_result(average)
-grade = s.show_grade(average)
+total = t.calculate_total(m1, m2, m3)
+average = t.calculate_average(total)
+result = r.get_result(average)
+grade = r.show_grade(average)
 
 print("name: ", name)
 print("roll no: ", roll_no)
